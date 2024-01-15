@@ -10,4 +10,4 @@ deadline_date = datetime.datetime.strptime(deadline, '%d.%m.%Y')
 today_date = datetime.datetime.today()
 difference = deadline_date - today_date
 
-print(f"Dear user, the time remaining for your goal: {goal} is {difference.total_seconds() / 60 / 60 } hours ")
+print(f"Dear user, the time remaining for your goal: {goal} is {int(difference.total_seconds() / 60 / 60)} hours ")
