@@ -1,5 +1,7 @@
 #Exercitiul 2
 
+#Given a list of integers. Remove duplicates from the list and create a tuple. Find the minimum and maximum number.
+
 list = [2, 3, 4, 5, 6, 7, 2, 10, 6, 4, 5, 30, 12, 3, 13]
 print(f"Lista initiala {list}")
 
